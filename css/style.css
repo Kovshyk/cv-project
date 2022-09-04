@@ -79,6 +79,8 @@ h1{
 
 .main-photo{
   border-radius: 50%;
+  max-width: 100%;
+  object-fit: cover;
 }
 h3{
   margin: 1rem 0;
@@ -153,7 +155,7 @@ section p{
   padding-left: 1rem;
   display: grid;
   grid-row-gap: 0.5rem;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: 1fr;
 }
 .soft-skills ul{
   padding-top: 1rem;
@@ -189,9 +191,7 @@ section p{
 .experience-description{
   padding: 0.5rem;
 }
-.education{
-  padding: 1rem;
-}
+
 .education-specialization{
   font-weight: bold;
   padding: 1rem 0;

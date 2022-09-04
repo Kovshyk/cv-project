@@ -1,15 +1,17 @@
 @media print {
     html{
-        font-size: 12px;
+        font-size: 14px;
     }
     body{
         margin: 0 0;
     }
     main{
         grid-column-gap: 0.25rem;
+        grid-template-columns: 3fr 7fr;
     }
     .main-photo{
         width: 13rem;
+
     }
 
     aside, section{
@@ -40,6 +42,10 @@
     .contacts-list a{
         color: #480963;
     }
+    .contacts-list img{
+        width: 1.5rem;
+        margin-right:0.5rem ;
+    }
     .languages-list{
         font-size: 1rem;
         padding: 1rem;
@@ -53,7 +59,7 @@
     .left{ margin:0 0.5rem;}
     section h2{
         font-size: 1.7rem;
-        margin: 1rem 0;
+        margin: 0.5rem 0;
 
     }
     .profile ul{
@@ -83,7 +89,7 @@
 
     }
     .experience-position {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
         padding-left: 1rem;
         font-size: 1rem;
     }
